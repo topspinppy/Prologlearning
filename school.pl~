@@ -1,0 +1,12 @@
+student(kim).
+student(liam).
+student(jack).
+teacher(mike).
+ta(kim).
+friend(kim,jack).
+friend(liam,kim).
+subject(math).
+subject(science).
+like(kim,math).
+like(liam,math).
+like(jack,science).

@@ -1,0 +1,11 @@
+man(david).
+man(john).
+woman(suzie).
+woman(eliza).
+parent(david,john).
+parent(john,eliza).
+parent(david,suzie).
+
+father(X,Y) :- parent(X,Y),man(X).
+mother(X,Y) :- parent(X,Y),woman(X).
+

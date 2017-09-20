@@ -1,0 +1,2 @@
+girl(nan).
+patinya(nan).
